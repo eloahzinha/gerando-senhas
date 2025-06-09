@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
 :root{
     --branco: white;
     --cor-de-fundo: #144272;
-    --fundo-senha: 
+    --fundo-senha: #2C74B3;
+    --fundo-texto: #0A2647;
+    --borda: #205295;
+    --fonte: 'Edu NSW ACT Hand Cursive', sans-serif;
+
+}
+*{
+    font-weight: 400;
+}
+body{
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
 }
