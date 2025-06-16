@@ -23,10 +23,32 @@ body{
 .titulo_secundário{
     font-size: 24px;
 }
-.conteuo_titulo{
+.conteudo_titulo{
     text-align: center;
     margin-top: 80px;
 }
-.cadeado_conteuo{
+.cadeado_conteudo{
     width: 100px;
+}
+.conteudo_senha{
+    margin-top: 80px;
+    background: var(--fundo-senha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+    font-size:35px;
+
+}
+#campo_senha{
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);
+    font-size: 40px;
+    width: 70;
+}
+#campo_semha:focus{
+    outline: none;
+}
+.conteudo_senha{
+    max-width: 1200px;
+    margin: 0 auto;
 }
